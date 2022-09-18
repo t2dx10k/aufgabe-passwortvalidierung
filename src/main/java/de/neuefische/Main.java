@@ -16,7 +16,7 @@ public class Main {
         checkForUpperLowerCase("FISCH");
         checkForUpperLowerCase("Fisch");
         messageDialog(Boolean.toString(checkForUpperLowerCase(inputDialog())));
-        JOptionPane.showMessageDialog(null, "passwordBlacklist");
+        messageDialog("passwordBlacklist");
         messageDialog(Boolean.toString(passwordBlacklist(inputDialog())));
 
     }
